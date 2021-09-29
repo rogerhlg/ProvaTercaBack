@@ -1,0 +1,13 @@
+### Cadastrar um novo carro
+POST https://localhost:5001/api/automovel/create
+Content-Type: application/json
+
+{
+    "Modelo" : "Fusca Novo",
+    "Cor" : "Azul",
+    "Marca": "Chevrolet",
+    "Ano": 2015
+}
+
+### Listar todos os carros
+GET https://localhost:5001/api/automovel/list
